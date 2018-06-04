@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:freco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+       <com.facebook.drawee.view.SimpleDraweeView
+           android:layout_width="50dp"
+           android:id="@+id/swimg"
+           freco:roundAsCircle="true"
+           android:layout_height="50dp">
+       </com.facebook.drawee.view.SimpleDraweeView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="老打卡机"
+           android:textColor="#FF0000"
+           android:layout_gravity="center_vertical"
+           android:id="@+id/wz"/>
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ceter"/>
+</LinearLayout>
